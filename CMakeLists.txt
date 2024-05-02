@@ -4,7 +4,7 @@ project(re2 LANGUAGES CXX C)
 
 option(PY_DEBUG "Set if python being linked is a Py_DEBUG build" OFF)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
